@@ -1,0 +1,10 @@
+ignore_files:
+  - test/
+  - data/
+  - .eslintrc.json
+  - .editorconfig
+  - .eslintignore
+  - package-lock.json
+  - package.json
+  - README.md
+  - .gitignore

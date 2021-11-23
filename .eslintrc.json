@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es2020": true
+  },
+  "extends": "trybe-fundamentals",
+  "rules": {
+    "max-lines": "off",
+    "max-params": "off",
+    "linebreak-style": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "none",
+        "vars": "local",
+        "varsIgnorePattern": "data"
+      }
+    ]
+  }
+}
