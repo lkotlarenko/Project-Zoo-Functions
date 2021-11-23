@@ -89,9 +89,9 @@ Você deverá completar as funções de forma a satisfazer os requisitos listado
 ### Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-zoo-functions.git`
+  * `git clone git@github.com:tryber/sd-017-project-zoo-functions.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-zoo-functions`
+    * `cd sd-017-project-zoo-functions`
 
 2. Instale as dependências
   * `npm install`
@@ -123,13 +123,13 @@ Você deverá completar as funções de forma a satisfazer os requisitos listado
   * Usando o exemplo anterior: `git push -u origin luiza-zoo-functions-project`
 
 7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-zoo-functions/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-017-project-zoo-functions/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-zoo-functions/pulls) e confira que o seu _Pull Request_ está criado.
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-017-project-zoo-functions/pulls) e confira que o seu _Pull Request_ está criado.
 
 ---
 
