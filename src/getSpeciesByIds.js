@@ -5,7 +5,7 @@ const data = require('../data/zoo_data');
 // const getSpeciesByIds = (...ids) => ids.map((id) => data.species.find((specie) => specie.id.includes(id)));
 
 // vai o outro metodo ent :P
-function getSpeciesByIds (...ids) {
+function getSpeciesByIds(...ids) {
   return species.filter((specie) => ids.includes(specie.id));
 }
 
