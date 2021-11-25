@@ -5,12 +5,18 @@ function countEntrants(entrants) {
   const senior = entrants.filter((ent) => ent.age >= 50).length;
   const adult = entrants.filter((ent) => ent.age >= 18 && ent.age < 50).length;
   const child = entrants.filter((ent) => ent.age < 18).length;
+
   // retorna um objeto com chaves contendo o numero de visitantes por idade
   return { child, adult, senior };
 }
 
 function calculateEntry(entrants) {
-  // seu código aqui
+  // retorna 0 caso o parametro 'entrants' não seja passado ou seja um objeto vazio;
+  if (!entrants || entrants.length === undefined) return 0;
+
+  // retorna utilizando a funcao 'countEntrants' acima para calcular as entradas com base nas idades;
+  return countEntrants(entrants).senior * 24.99
+  + countEntrants(entrants).adult * 49.99 + countEntrants(entrants).child * 20.99;
 }
 
 module.exports = { calculateEntry, countEntrants };
