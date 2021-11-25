@@ -10,13 +10,13 @@ function countEntrants(entrants) {
   return { child, adult, senior };
 }
 
-function calculateEntry(entrants) {
+function calculateEntry(ent) {
   // retorna 0 caso o parametro 'entrants' não seja passado ou seja um objeto vazio;
-  if (!entrants || entrants.length === undefined) return 0;
+  if (!ent || ent.length === undefined) return 0;
 
   // retorna utilizando a funcao 'countEntrants' acima para calcular as entradas com base nas idades;
-  return countEntrants(entrants).senior * 24.99
-  + countEntrants(entrants).adult * 49.99 + countEntrants(entrants).child * 20.99;
+  return countEntrants(ent).senior * 24.99
+    + countEntrants(ent).adult * 49.99 + countEntrants(ent).child * 20.99;
 }
 
 module.exports = { calculateEntry, countEntrants };
